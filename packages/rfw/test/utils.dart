@@ -20,4 +20,4 @@ bool get isMainChannel {
 }
 
 // See Contributing section of README.md file.
-final bool runGoldens = !kIsWeb && Platform.isLinux && isMainChannel;
+const bool runGoldens = true;
